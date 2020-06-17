@@ -1,0 +1,16 @@
+{
+  "name": "yarn-audit-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "C.J. Winslow <whoaa512@gmail.com> (https://github.com/whoaa512)",
+  "license": "MIT",
+  "engines": {
+    "yarn": "=1.22.4"
+  },
+  "scripts": {
+    "start": "yarn audit --summary --json"
+  },
+  "devDependencies": {
+    "npm-run": "4.1.2"
+  }
+}
